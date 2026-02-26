@@ -140,7 +140,7 @@ fun TextAndImage(
 ) {
     Box(modifier = modifier)
     Column(
-        modifier = Modifier.background(Color.White),
+        modifier = Modifier,
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
         ) {
@@ -167,7 +167,7 @@ fun TextAndImage(
         }
     }
 
-@Preview(showBackground = true)
+@Preview(showBackground = false)
 @Composable
 fun LemonPreview() {
     LemonadeTheme {
